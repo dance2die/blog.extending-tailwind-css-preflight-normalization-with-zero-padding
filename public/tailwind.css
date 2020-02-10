@@ -1,0 +1,23 @@
+@tailwind base;
+
+/* 
+Tailwind doesn't apply padding:0, only margin: 0
+https://tailwindcss.com/docs/preflight/#extending-preflight 
+*/
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre {
+  @apply p-0;
+}
+
+@tailwind components;
+@tailwind utilities;
